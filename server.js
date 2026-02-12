@@ -12,7 +12,7 @@ const app = express();
 // 1. CORS Configuration (Sabse important!)
 // Yahan "https://medconnect.cloud" tera frontend domain hai.
 app.use(cors({
-    origin: ["https://medconnect.cloud", "http://72.61.227.128"],
+    origin: ["https://medconnect.cloud", "https://www.medconnect.cloud"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
